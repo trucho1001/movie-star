@@ -697,16 +697,16 @@ hr.space-40 {
     position: absolute;
     top: 50%;
     right: 0;
-
+    margin-top: 0;
     float: none;
-
     border-bottom: 1px solid rgba(255, 255, 255, .2);
 }
 
 .nav li {
     position: relative;
-
     margin: 0;
+    list-style-type: none;
+    /* display: inline-block; */
 }
 
 .nav li a {
@@ -722,6 +722,7 @@ hr.space-40 {
     text-transform: uppercase;
 
     color: #fff;
+  
 }
 
 .nav li:focus a,
