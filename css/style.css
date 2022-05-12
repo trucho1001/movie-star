@@ -477,7 +477,10 @@ hr.space-40 {
 }
 
 .container {
-    padding: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-right: auto;
+    margin-left: auto;
 }
 /* Fade transition for carousel items */
 
@@ -686,6 +689,9 @@ hr.space-40 {
 
     padding: 0;
 }
+/* .collapse li{
+    display: inline-block;
+} */
 
 .nav {
     position: absolute;
@@ -1179,7 +1185,6 @@ a.arrow-button:hover {
 
 .movie-slide h4 {
     font-size: 18px;
-
     color: #4a4a4a;
 }
 
@@ -1503,7 +1508,9 @@ a.arrow-button:hover {
 .movie-tabs div {
     display: inline-block;
 }
-
+.view-movie {
+    
+}
 /* Coming soon slider */
 
 .comingSoon-slides > div {
