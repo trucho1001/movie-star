@@ -481,11 +481,12 @@ hr.space-40 {
 }
 
 .container {
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 150px;
+    padding-left: 150px;
     margin-right: auto;
     margin-left: auto;
 }
+
 /* Fade transition for carousel items */
 
 .carousel-fade .carousel-inner .item {
@@ -783,9 +784,9 @@ hr.space-40 {
     background: #faa82f;
 }
 
-.scroll {
+/* .scroll {
     padding-bottom: 5px;
-}
+} */
 
 /**  Dropdown  **/
 
@@ -920,6 +921,7 @@ hr.space-40 {
             transform: skewX(30deg);
 
     background: #e76115;
+    border-radius: 30px;
 }
 
 .btn-primary {
@@ -1489,6 +1491,10 @@ a.arrow-button:hover {
     text-transform: uppercase;
 }
 
+.running-time {
+    float:right;
+}
+
 .movie-tabs .certificate {
     font-size: 13px;
     font-weight: bold;
@@ -1508,9 +1514,19 @@ a.arrow-button:hover {
     background: #4a4a4a;
 }
 
-.movie-tabs div{
+.movie-tabs div {
     display: inline-block;
+    border: 1px solid #000;
 }
+.view-movie {
+    vertical-align: top;
+    /* width: 100%;
+    border: 1px solid #000; */
+}
+.row-view {
+    width: 100%;
+}
+
 /* Coming soon slider */
 
 .comingSoon-slides > div {
@@ -2635,7 +2651,12 @@ footer .copyright a:hover {
 
 .vertical div{
     vertical-align: top;
-    padding-right: 100px;
+}
+
+.flex-gap {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 150px;
 }
 
 /**  Keyframes  **/
