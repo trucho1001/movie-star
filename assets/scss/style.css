@@ -900,10 +900,10 @@ hr.space-40 {
 }
 
 .btn-default:hover:before {
-    width: 140%;
+    width: 100%;
 }
 
-.btn-default:before,
+/* .btn-default:before,
 .btn-ghost:before {
     position: absolute;
     z-index: 0;
@@ -921,8 +921,8 @@ hr.space-40 {
             transform: skewX(30deg);
 
     background: #e76115;
-    border-radius: 30px;
-}
+    
+} */
 
 .btn-primary {
     border: none;
@@ -1190,6 +1190,7 @@ a.arrow-button:hover {
 
 .movie-poster img {
     border-radius: 5px;
+    
 }
 /**  Tabs  **/
 
@@ -1520,11 +1521,13 @@ a.arrow-button:hover {
 }
 .view-movie {
     vertical-align: top;
+    margin-right: 0;
     /* width: 100%;
     border: 1px solid #000; */
 }
 .row-view {
     width: 100%;
+    justify-content: space-between;
 }
 
 /* Coming soon slider */
@@ -1604,6 +1607,10 @@ a.arrow-button:hover {
 .comingSoon-slides .slide-video {
     position: relative;
     z-index: 1;
+}
+.slide-content .slide-video{
+    display: inline;
+    position: relative;
 }
 
 .comingSoon-slides .video {
@@ -2656,7 +2663,7 @@ footer .copyright a:hover {
 .flex-gap {
     display: inline-flex;
     flex-wrap: wrap;
-    gap: 150px;
+    gap: 120px;
 }
 
 /**  Keyframes  **/
