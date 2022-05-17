@@ -1516,7 +1516,7 @@ a.arrow-button:hover {
 
 .movie-tabs div {
     display: inline-block;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
 }
 .view-movie {
     vertical-align: top;
