@@ -481,8 +481,8 @@ hr.space-40 {
 }
 
 .container {
-    padding-right: 150px;
-    padding-left: 150px;
+    padding-right: 120px;
+    padding-left: 120px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -663,8 +663,14 @@ hr.space-40 {
 .logo {
     position: relative;
     z-index: 1;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     display: inline-block;
+
+}
+.logo img {
+    /* width65%; */
+    max-height: 40px;
+    margin: 15px 0;
 }
 
 .navbar-toggle {
@@ -691,14 +697,17 @@ hr.space-40 {
 
 .navbar-collapse {
     position: relative;
-    padding: 0;
+    padding:0;
+
 }
 
 .nav {
     position: absolute;
+    top: 50%;
     right: 0;
     float: none;
     border-bottom: 1px solid rgba(255, 255, 255, .2);
+    margin-top: -24px;
 }
 
 .nav li {
@@ -708,7 +717,7 @@ hr.space-40 {
 }
 
 .nav li a {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: normal;
     line-height: .8em;
 
@@ -783,10 +792,6 @@ hr.space-40 {
 .navbar-toggle .icon-bar {
     background: #faa82f;
 }
-
-/* .scroll {
-    padding-bottom: 5px;
-} */
 
 /**  Dropdown  **/
 
@@ -1190,6 +1195,7 @@ a.arrow-button:hover {
 
 .movie-poster img {
     border-radius: 5px;
+    width: 70%;
     
 }
 /**  Tabs  **/
@@ -2550,8 +2556,7 @@ form textarea {
     display: inline-block;   
     margin: 0;
     text-align: center;
-    padding: 5px;
-    padding-bottom: 40px;
+    
 }
 
 .slick-carousel {
